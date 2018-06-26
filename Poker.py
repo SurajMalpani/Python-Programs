@@ -5,7 +5,7 @@ Created on Thu May 24 20:53:44 2018
 @author: suraj
 """
 
-#Pascal traingle
+#Generating Pascal traingle for practice
 lst = [1]
 
 for i in range(10):
@@ -16,8 +16,7 @@ for i in range(10):
     newlst.append(lst[-1])
     lst = list(newlst)
 
-
-
+#Let's play Poker
 ###### Poker - Cards
 suits = ['\u2660','\u2665','\u2666','\u2663']   #unicodes for suits
 cards = ['A','2','3','4','5','6','7','8','9',\
